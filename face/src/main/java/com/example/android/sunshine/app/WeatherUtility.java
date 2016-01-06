@@ -10,13 +10,13 @@ public class WeatherUtility {
         // http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes
         // https://erikflowers.github.io/weather-icons/
         if (weatherId >= 200 && weatherId <= 232) {
-            //return String.format(Locale.US, formatArtUrl, "storm");
+            return "\uf07d";
         } else if (weatherId >= 300 && weatherId <= 321) {
-            //return String.format(Locale.US, formatArtUrl, "light_rain");
+            return "\uf009";
         } else if (weatherId >= 500 && weatherId <= 504) {
-            //return String.format(Locale.US, formatArtUrl, "rain");
+            return "\uf008";
         } else if (weatherId == 511) {
-            //return String.format(Locale.US, formatArtUrl, "snow");
+            return "\uf006";
         } else if (weatherId >= 520 && weatherId <= 531) {
             return "\uf019";
         } else if (weatherId >= 600 && weatherId <= 622) {
