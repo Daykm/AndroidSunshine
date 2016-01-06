@@ -22,6 +22,8 @@ Getting Started
 This sample uses the Gradle build system.  To build this project, use the
 "gradlew build" command or use "Import Project" in Android Studio.
 
+Add your openweatherapi key to the app module's build.gradle file.
+
 Support
 -------
 
